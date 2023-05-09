@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1</title>
+</head>
+<body>
+    <button onclick="dooron()">on </button>
+    <button onclick="dooroff()"> off</button>
+</body>
+<img src="off.jpg" id="doorimage" width="500px" height="600px" alt="doorimage">
+-
+
+<script>
+function dooron(){
+
+document.getElementById('doorimage').src="on.jpg"  
+}
+    
+function dooroff(){
+
+    document.getElementById('doorimage').src="off.jpg"
+
+}
+
+
+
+
+</script>
